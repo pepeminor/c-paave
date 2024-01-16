@@ -1,0 +1,122 @@
+import { Platform } from 'react-native';
+import globalStyles, { lightColors as Colors } from 'styles';
+import { getStylesHook } from 'hooks/useStyles';
+
+export default getStylesHook({
+  colorUp: {
+    color: Colors.DARK_GREEN,
+  },
+  container: {
+    height: 176,
+    width: 99,
+    marginHorizontal: 4.5,
+  },
+  followerText: {
+    fontSize: 12,
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    fontWeight: 'bold',
+    color: Colors.LIGHTTextTitle,
+    paddingRight: 4,
+  },
+  returnRateText: {
+    fontSize: 12,
+    fontWeight: '500',
+    fontFamily: Platform.OS === 'ios' ? 'DINOT' : 'DINOT-Light',
+    fontStyle: 'normal',
+    textAlign: 'right',
+  },
+  userInfo: {
+    flex: 1,
+    alignItems: 'center',
+    backgroundColor: 'rgba(255,255, 255, 0.15)',
+    borderTopLeftRadius: 15,
+    borderTopRightRadius: 15,
+    paddingTop: 8,
+  },
+  bottomInfo: {
+    flexDirection: 'row',
+    backgroundColor: Colors.WHITE,
+    borderBottomLeftRadius: 15,
+    borderBottomRightRadius: 15,
+    paddingHorizontal: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  avatarImgContainer: {
+    ...globalStyles.centered,
+    borderRadius: 64,
+    borderWidth: 5,
+    borderColor: '#FFFFFF4D',
+    position: 'relative',
+  },
+  avatarImg: {
+    ...globalStyles.centered,
+    borderRadius: 64,
+    position: 'relative',
+  },
+  avatarImgText: {
+    fontWeight: 'bold',
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    color: Colors.WHITE,
+    fontSize: 24,
+    lineHeight: 26,
+  },
+  nameText: {
+    fontWeight: 'bold',
+    fontSize: 14,
+    color: Colors.WHITE,
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    lineHeight: 18,
+    textAlign: 'center',
+    marginHorizontal: 5,
+    marginTop: 12,
+  },
+  usernameText: {
+    fontWeight: '400',
+    fontSize: 12,
+    color: '#15FDE1',
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    lineHeight: 16,
+    textAlign: 'center',
+  },
+  badge: {
+    backgroundColor: Colors.WHITE,
+    position: 'absolute',
+    bottom: -15,
+    height: 22,
+    width: 22,
+    borderRadius: 15,
+  },
+  badgeText: {
+    fontWeight: 'bold',
+    fontSize: 14,
+    lineHeight: 18,
+    textAlign: 'center',
+    color: Colors.BlueNewColor,
+  },
+  rankContainer: {
+    marginBottom: 2,
+    marginTop: Platform.OS === 'android' ? 12 : 6,
+    width: '100%',
+    height: 24,
+  },
+  rankContainer1: {
+    marginBottom: Platform.OS === 'android' ? 8 : 2,
+    marginTop: Platform.OS === 'android' ? 20 : 8,
+    width: '100%',
+    height: 24,
+  },
+  rankText: {
+    fontWeight: '400',
+    fontSize: 12,
+    lineHeight: 16,
+  },
+  empty: {
+    width: 12,
+    height: 22,
+  },
+});

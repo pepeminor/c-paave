@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "844649573794",
+    "firebase_url": "https://paave-channel-default-rtdb.firebaseio.com",
+    "project_id": "paave-channel",
+    "storage_bucket": "paave-channel.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844649573794:android:3f8a2e323092e7602556fb",
+        "android_client_info": {
+          "package_name": "com.difisoft.paave"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844649573794-9720gcnnbhkhljhj46g25ehtl8i9q7me.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.difisoft.paave",
+            "certificate_hash": "d206ca96599bdabab46d3b38c2538a2766d9c005"
+          }
+        },
+        {
+          "client_id": "844649573794-n22p8997k5e4mgt7q205al0srrvtp08s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfYFZoCzlx9-_Imwb-v6_ppY6_zh7Pao4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844649573794-n22p8997k5e4mgt7q205al0srrvtp08s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "844649573794-jn892k5l30s3hkq2s6i2v85s6aqo08rs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.difisoft.paave",
+                "app_store_id": "6443872980"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844649573794:android:b20ee49fbc11dadd2556fb",
+        "android_client_info": {
+          "package_name": "com.difisoft.paave.uat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844649573794-0m4vshhob9d2j7fmp8lpni20c043fd1s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.difisoft.paave.uat",
+            "certificate_hash": "4d21cf5755d58293a4ff62e3638d596cbbdcd1ad"
+          }
+        },
+        {
+          "client_id": "844649573794-n22p8997k5e4mgt7q205al0srrvtp08s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfYFZoCzlx9-_Imwb-v6_ppY6_zh7Pao4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844649573794-n22p8997k5e4mgt7q205al0srrvtp08s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "844649573794-jn892k5l30s3hkq2s6i2v85s6aqo08rs.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.difisoft.paave",
+                "app_store_id": "6443872980"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

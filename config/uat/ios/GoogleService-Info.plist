@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>844649573794-jp5sjqb52fv0s3cajc9br3b8587p73hd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.844649573794-jp5sjqb52fv0s3cajc9br3b8587p73hd</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>844649573794-0m4vshhob9d2j7fmp8lpni20c043fd1s.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCUkDn_NOWs0aVPtGoh0wb5Um37lcuTWF0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>844649573794</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.difisoft.paave.uat</string>
+	<key>PROJECT_ID</key>
+	<string>paave-channel</string>
+	<key>STORAGE_BUCKET</key>
+	<string>paave-channel.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:844649573794:ios:e98c2740561df9382556fb</string>
+	<key>DATABASE_URL</key>
+	<string>https://paave-channel-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

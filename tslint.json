@@ -1,0 +1,78 @@
+{
+  "extends": ["tslint:latest", "tslint-react", "tslint-config-prettier", "tslint-immutable"],
+  "linterOptions": {
+    "exclude": ["**/*.json", "**/*.js"]
+  },
+  "rulesDirectory": ["tslint-misc-rules", "tslint-plugin-prettier"],
+  "rules": {
+    "prettier": [true, ".prettierrc.json"],
+    "member-access": [true, "no-public"],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "static-field",
+          "private-instance-field",
+          "constructor",
+          "static-method",
+          "public-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "prefer-for-of": false,
+    "ban-types": false,
+    "object-literal-sort-keys": false,
+    "interface-name": [true, "always-prefix"],
+    "no-default-export": false,
+    "forin": false,
+    "variable-name": [true, "allow-pascal-case"],
+    "no-console": false,
+    "ordered-imports": false,
+    "no-submodule-imports": false,
+    "no-implicit-dependencies": false,
+    "sort-imports": [true, "whitespace-insensitive"],
+    "prefer-es6-imports": [true, "module-name"],
+    "class-method-newlines": true,
+    "react-lifecycle-order": [
+      true,
+      "constructor",
+      "getDerivedStateFromProps",
+      "componentDidMount",
+      "shouldComponentUpdate",
+      "componentDidUpdate",
+      "componentWillUnmount",
+      "render"
+    ],
+    "prefer-or-operator-over-ternary": true,
+    "no-braces-for-single-line-arrow-functions": true,
+    "no-var-keyword": true,
+    "no-parameter-reassignment": true,
+    "readonly-keyword": [
+      true,
+      "ignore-local",
+      "ignore-class",
+      {
+        "ignore-prefix": ["mutable", "modifiable", "writable"]
+      }
+    ],
+    "no-delete": true,
+    "no-method-signature": true,
+    "no-object-mutation": [
+      true,
+      {
+        "ignore-prefix": ["mutable", "self", "local", "Global", "modifiable", "writable"],
+        "ignore-suffix": "Socket",
+        "ignore-pattern": ["*.local*", "*.local*.*", "*.local*.*.*", "*.local*.*.*.*"]
+      }
+    ],
+    "no-array-mutation": [
+      true,
+      {
+        "ignore-prefix": ["mutable", "local", "Global", "modifiable", "writable"],
+        "ignore-pattern": ["*.local*", "*.local*.*"]
+      }
+    ],
+    "react-native/no-inline-styles": false
+  }
+}

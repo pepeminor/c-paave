@@ -1,0 +1,125 @@
+import { lightColors as Colors } from 'styles';
+import { getStylesHook } from 'hooks/useStyles';
+
+export default getStylesHook({
+  container: {
+    paddingVertical: 16,
+    paddingHorizontal: 16,
+  },
+  chapterTitle: {
+    color: Colors.BlueNewColor,
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 18,
+    lineHeight: 24,
+  },
+  read: {
+    color: Colors.LIGHTTextDisable,
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 12,
+    lineHeight: 16,
+  },
+  readTime: {
+    fontWeight: '400',
+  },
+  section: {
+    color: Colors.BlueNewColor,
+    fontFamily: 'Roboto',
+    fontWeight: '400',
+    fontSize: 16,
+    lineHeight: 22,
+  },
+  contentTitle: {
+    color: Colors.LIGHTTextBigTitle,
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 14,
+    lineHeight: 18,
+    paddingTop: 8,
+  },
+  content: {
+    color: Colors.LIGHTTextContent,
+    fontFamily: 'Roboto',
+    fontWeight: '400',
+    fontSize: 14,
+    lineHeight: 18,
+    marginTop: 8,
+    padding: 0,
+    display: 'flex',
+  },
+  keyword: {
+    color: Colors.BlueNewColor,
+    fontWeight: 'bold',
+  },
+  noticeContainer: {
+    flex: 1,
+    paddingHorizontal: 16,
+    backgroundColor: Colors.ModalBackgroundColor,
+    justifyContent: 'center',
+  },
+  notice: {
+    backgroundColor: Colors.WHITE,
+    borderRadius: 10,
+  },
+  noticeContent: {
+    paddingBottom: 17,
+    color: Colors.LIGHTTextContent,
+    fontFamily: 'Roboto',
+    fontWeight: '400',
+    fontSize: 16,
+    lineHeight: 22,
+    textAlign: 'center',
+  },
+  executeFormButton2: {
+    backgroundColor: Colors.BlueNewColor,
+    paddingVertical: 11,
+    borderRadius: 10,
+  },
+  executeFormButtonText2: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    color: Colors.WHITE,
+  },
+  nextBtnContainer: {
+    backgroundColor: Colors.DARKButtonGreen,
+    flexDirection: 'row',
+    shadowColor: Colors.BLACK,
+    shadowOpacity: 0.1,
+    shadowRadius: 15,
+    borderRadius: 8,
+    marginTop: 32,
+  },
+  nextBtnText: {
+    color: Colors.WHITE,
+    fontFamily: 'Roboto',
+    fontWeight: 'bold',
+    fontSize: 14,
+    lineHeight: 18,
+  },
+  nextBtnHead: {
+    borderTopLeftRadius: 8,
+    borderBottomLeftRadius: 8,
+    backgroundColor: Colors.DARK_GREEN,
+    paddingVertical: 13,
+    paddingHorizontal: 13,
+  },
+  nextBtnMid: {
+    flex: 1,
+    paddingHorizontal: 8,
+    paddingVertical: 13,
+  },
+  nextBtnEnd: {
+    paddingHorizontal: 9,
+    paddingVertical: 16,
+  },
+  image: {
+    width: 341,
+    height: 217,
+    borderRadius: 8,
+    backgroundColor: Colors.BlueNewColor,
+    marginVertical: 5,
+  },
+});

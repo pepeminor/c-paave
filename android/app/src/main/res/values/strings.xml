@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Paave UAT</string>
+    <string name="CodePushDeploymentKey" moduleConfig="true">rGtkaGYboz8_6aDP0F7lVnrTeMwTfMHx3ETSY</string>
+    <string name="appCenterCrashes_whenToSendCrashes" moduleConfig="true" translatable="false">DO_NOT_ASK_JAVASCRIPT</string>
+    <string name="appCenterAnalytics_whenToEnableAnalytics" moduleConfig="true" translatable="false">ALWAYS_SEND</string>
+    <string name="facebook_app_id">2244275525776944</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">d7227d641a76f42ef7787b2e9165a5af</string>
+</resources>

@@ -1,0 +1,125 @@
+import { lightColors, textStyles } from 'styles';
+import { getStylesHook } from 'hooks/useStyles';
+
+export default getStylesHook({
+  stockCodeTxt: {
+    ...textStyles.fontSize14,
+    ...textStyles.roboto700,
+    marginLeft: 2,
+    color: lightColors.LIGHTTextContent,
+  },
+  stockCodeTxtSmall: {
+    ...textStyles.fontSize14,
+    ...textStyles.roboto700,
+    marginTop: 2,
+    color: lightColors.LIGHTTextContent,
+    fontSize: 11,
+  },
+  quantity: {
+    ...textStyles.fontSize14,
+    ...textStyles.dinOt500,
+    color: lightColors.LIGHTTextContent,
+  },
+  quantity2: {
+    ...textStyles.fontSize14,
+    ...textStyles.dinOt400,
+    color: lightColors.LIGHTTextContent,
+  },
+  btnSellSymbol: {
+    marginLeft: 10,
+    backgroundColor: lightColors.LIGHTButtonRed,
+    height: 22,
+    width: 40,
+    paddingTop: 2,
+    borderWidth: 1,
+    borderRadius: 6,
+    borderColor: lightColors.LIGHTButtonRed,
+  },
+  btnDisable: {
+    marginLeft: 10,
+    backgroundColor: lightColors.LIGHTButtonRed,
+    height: 22,
+    width: 40,
+    paddingTop: 2,
+    borderWidth: 1,
+    borderRadius: 6,
+    borderColor: lightColors.LIGHTButtonRed,
+    opacity: 0.5,
+  },
+  textSellSymbol: {
+    ...textStyles.fontSize12,
+    ...textStyles.roboto400,
+    lineHeight: 16,
+    color: lightColors.WHITE,
+    textAlign: 'center',
+  },
+  logoContainer: {
+    borderRadius: 99,
+    overflow: 'hidden',
+  },
+  row: {
+    paddingVertical: 8,
+    flexDirection: 'row',
+    borderBottomColor: lightColors.BORDER,
+    borderBottomWidth: 1,
+  },
+  col1: {
+    width: 107,
+    paddingLeft: 3,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  col1ContentContainer: {
+    flex: 1,
+    flexDirection: 'column',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  col2: {
+    width: 80,
+    flexDirection: 'column',
+  },
+  col2_2: {
+    width: 80,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  col2Cell: {
+    flex: 1,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    paddingRight: 6,
+  },
+  col3: {
+    width: 80,
+    flexDirection: 'column',
+  },
+  col3Cell: {
+    flex: 1,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    paddingRight: 6,
+  },
+  col4: {
+    width: 108,
+    top: -1,
+    paddingRight: 8,
+    flexDirection: 'column',
+  },
+  col4Cell_1: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    paddingRight: 6,
+  },
+  col4Cell_2: {
+    flex: 1,
+    width: '100%',
+    justifyContent: 'center',
+    alignItems: 'flex-end',
+    paddingRight: 6,
+  },
+});

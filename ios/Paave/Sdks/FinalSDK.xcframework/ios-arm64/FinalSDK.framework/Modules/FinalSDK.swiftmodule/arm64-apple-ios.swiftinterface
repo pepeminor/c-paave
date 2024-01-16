@@ -1,0 +1,862 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6.1 (swiftlang-5.6.0.323.66 clang-1316.0.20.12)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name FinalSDK
+import CoreGraphics
+import CoreText
+@_exported import FinalSDK
+import Foundation
+import QuartzCore
+import Swift
+import UIKit
+import _Concurrency
+final public class ColorValueProvider {
+  public init(block: @escaping FinalSDK.ColorValueProvider.ColorValueBlock)
+  public init(_ color: FinalSDK.Color)
+  public init(_ keyframes: [FinalSDK.Keyframe<FinalSDK.Color>])
+  public typealias ColorValueBlock = (CoreGraphics.CGFloat) -> FinalSDK.Color
+  final public var color: FinalSDK.Color {
+    get
+    set
+  }
+  final public var valueType: Any.Type {
+    get
+  }
+  final public var storage: FinalSDK.ValueProviderStorage<FinalSDK.Color> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+public class BundleImageProvider : FinalSDK.AnimationImageProvider {
+  public init(bundle: Foundation.Bundle, searchPath: Swift.String?)
+  public func imageForAsset(asset: FinalSDK.ImageAsset) -> CoreGraphics.CGImage?
+  @objc deinit
+}
+extension FinalSDK.Color : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+final public class FloatValueProvider {
+  public init(block: @escaping FinalSDK.FloatValueProvider.CGFloatValueBlock)
+  public init(_ float: CoreGraphics.CGFloat)
+  public typealias CGFloatValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGFloat
+  final public var float: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  final public var valueType: Any.Type {
+    get
+  }
+  final public var storage: FinalSDK.ValueProviderStorage<FinalSDK.Vector1D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+infix operator +| : DefaultPrecedence
+infix operator +- : DefaultPrecedence
+public protocol Interpolatable : FinalSDK.AnyInterpolatable {
+  func interpolate(to: Self, amount: CoreGraphics.CGFloat) -> Self
+}
+public protocol SpatialInterpolatable : FinalSDK.AnyInterpolatable {
+  func interpolate(to: Self, amount: CoreGraphics.CGFloat, spatialOutTangent: CoreGraphics.CGPoint?, spatialInTangent: CoreGraphics.CGPoint?) -> Self
+}
+public protocol AnyInterpolatable {
+  func _interpolate(to: Self, amount: CoreGraphics.CGFloat, spatialOutTangent: CoreGraphics.CGPoint?, spatialInTangent: CoreGraphics.CGPoint?) -> Self
+}
+extension FinalSDK.Interpolatable {
+  public func _interpolate(to: Self, amount: CoreGraphics.CGFloat, spatialOutTangent _: CoreGraphics.CGPoint?, spatialInTangent _: CoreGraphics.CGPoint?) -> Self
+}
+extension FinalSDK.SpatialInterpolatable {
+  public func interpolate(to: Self, amount: CoreGraphics.CGFloat) -> Self
+  public func _interpolate(to: Self, amount: CoreGraphics.CGFloat, spatialOutTangent: CoreGraphics.CGPoint?, spatialInTangent: CoreGraphics.CGPoint?) -> Self
+}
+extension Swift.Double : FinalSDK.Interpolatable {
+}
+extension CoreGraphics.CGFloat : FinalSDK.Interpolatable {
+}
+extension Swift.Float : FinalSDK.Interpolatable {
+}
+extension FinalSDK.Interpolatable where Self : Swift.BinaryFloatingPoint {
+  public func interpolate(to: Self, amount: CoreGraphics.CGFloat) -> Self
+}
+extension CoreGraphics.CGRect : FinalSDK.Interpolatable {
+  public func interpolate(to: CoreGraphics.CGRect, amount: CoreGraphics.CGFloat) -> CoreGraphics.CGRect
+}
+extension CoreGraphics.CGSize : FinalSDK.Interpolatable {
+  public func interpolate(to: CoreGraphics.CGSize, amount: CoreGraphics.CGFloat) -> CoreGraphics.CGSize
+}
+extension CoreGraphics.CGPoint : FinalSDK.SpatialInterpolatable {
+  public func interpolate(to: CoreGraphics.CGPoint, amount: CoreGraphics.CGFloat, spatialOutTangent: CoreGraphics.CGPoint?, spatialInTangent: CoreGraphics.CGPoint?) -> CoreGraphics.CGPoint
+}
+extension FinalSDK.Color : FinalSDK.Interpolatable {
+  public func interpolate(to: FinalSDK.Color, amount: CoreGraphics.CGFloat) -> FinalSDK.Color
+}
+extension FinalSDK.Vector1D : FinalSDK.Interpolatable {
+  public func interpolate(to: FinalSDK.Vector1D, amount: CoreGraphics.CGFloat) -> FinalSDK.Vector1D
+}
+extension FinalSDK.Vector2D : FinalSDK.SpatialInterpolatable {
+  public func interpolate(to: FinalSDK.Vector2D, amount: CoreGraphics.CGFloat, spatialOutTangent: CoreGraphics.CGPoint?, spatialInTangent: CoreGraphics.CGPoint?) -> FinalSDK.Vector2D
+}
+extension FinalSDK.Vector3D : FinalSDK.SpatialInterpolatable {
+  public func interpolate(to: FinalSDK.Vector3D, amount: CoreGraphics.CGFloat, spatialOutTangent: CoreGraphics.CGPoint?, spatialInTangent: CoreGraphics.CGPoint?) -> FinalSDK.Vector3D
+}
+extension Swift.Array : FinalSDK.Interpolatable, FinalSDK.AnyInterpolatable where Element : FinalSDK.Interpolatable {
+  public func interpolate(to: [Element], amount: CoreGraphics.CGFloat) -> [Element]
+}
+public enum LottieBackgroundBehavior {
+  case stop
+  case pause
+  case pauseAndRestore
+  case forceFinish
+  case continuePlaying
+  public static func `default`(for renderingEngine: FinalSDK.RenderingEngine) -> FinalSDK.LottieBackgroundBehavior
+  public static func == (a: FinalSDK.LottieBackgroundBehavior, b: FinalSDK.LottieBackgroundBehavior) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LottieLoopMode {
+  case playOnce
+  case loop
+  case autoReverse
+  case `repeat`(Swift.Float)
+  case repeatBackwards(Swift.Float)
+}
+extension FinalSDK.LottieLoopMode : Swift.Equatable {
+  public static func == (lhs: FinalSDK.LottieLoopMode, rhs: FinalSDK.LottieLoopMode) -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @IBDesignable @_Concurrency.MainActor(unsafe) final public class AnimationView : FinalSDK.AnimationViewBase {
+  @_Concurrency.MainActor(unsafe) public init(animation: FinalSDK.Animation?, imageProvider: FinalSDK.AnimationImageProvider? = nil, textProvider: FinalSDK.AnimationTextProvider = DefaultTextProvider(), fontProvider: FinalSDK.AnimationFontProvider = DefaultFontProvider(), configuration: FinalSDK.LottieConfiguration = .shared, logger: FinalSDK.LottieLogger = .shared)
+  @_Concurrency.MainActor(unsafe) public init(configuration: FinalSDK.LottieConfiguration = .shared, logger: FinalSDK.LottieLogger = .shared)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) final public let configuration: FinalSDK.LottieConfiguration
+  @_Concurrency.MainActor(unsafe) final public var valueProviders: [FinalSDK.AnimationKeypath : FinalSDK.AnyValueProvider] {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var backgroundBehavior: FinalSDK.LottieBackgroundBehavior {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var animation: FinalSDK.Animation? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var imageProvider: FinalSDK.AnimationImageProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var textProvider: FinalSDK.AnimationTextProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var fontProvider: FinalSDK.AnimationFontProvider {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var isAnimationPlaying: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var isAnimationQueued: Swift.Bool {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var loopMode: FinalSDK.LottieLoopMode {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var shouldRasterizeWhenIdle: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var currentProgress: FinalSDK.AnimationProgressTime {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var currentTime: Foundation.TimeInterval {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var currentFrame: FinalSDK.AnimationFrameTime {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var realtimeAnimationFrame: FinalSDK.AnimationFrameTime {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var realtimeAnimationProgress: FinalSDK.AnimationProgressTime {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public var animationSpeed: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var respectAnimationFrameRate: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) final public var viewportFrame: CoreGraphics.CGRect? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var intrinsicContentSize: CoreGraphics.CGSize {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) final public var currentRenderingEngine: FinalSDK.RenderingEngine? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) final public func play(completion: FinalSDK.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) final public func play(fromProgress: FinalSDK.AnimationProgressTime? = nil, toProgress: FinalSDK.AnimationProgressTime, loopMode: FinalSDK.LottieLoopMode? = nil, completion: FinalSDK.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) final public func play(fromFrame: FinalSDK.AnimationFrameTime? = nil, toFrame: FinalSDK.AnimationFrameTime, loopMode: FinalSDK.LottieLoopMode? = nil, completion: FinalSDK.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) final public func play(fromMarker: Swift.String? = nil, toMarker: Swift.String, loopMode: FinalSDK.LottieLoopMode? = nil, completion: FinalSDK.LottieCompletionBlock? = nil)
+  @_Concurrency.MainActor(unsafe) final public func stop()
+  @_Concurrency.MainActor(unsafe) final public func pause()
+  @_Concurrency.MainActor(unsafe) final public func reloadImages()
+  @_Concurrency.MainActor(unsafe) final public func forceDisplayUpdate()
+  @_Concurrency.MainActor(unsafe) final public func setValueProvider(_ valueProvider: FinalSDK.AnyValueProvider, keypath: FinalSDK.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) final public func getValue(for keypath: FinalSDK.AnimationKeypath, atFrame: FinalSDK.AnimationFrameTime?) -> Any?
+  @_Concurrency.MainActor(unsafe) final public func getOriginalValue(for keypath: FinalSDK.AnimationKeypath, atFrame: FinalSDK.AnimationFrameTime?) -> Any?
+  @_Concurrency.MainActor(unsafe) final public func logHierarchyKeypaths()
+  @_Concurrency.MainActor(unsafe) final public func addSubview(_ subview: FinalSDK.AnimationSubview, forLayerAt keypath: FinalSDK.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) final public func convert(_ rect: CoreGraphics.CGRect, toLayerAt keypath: FinalSDK.AnimationKeypath?) -> CoreGraphics.CGRect?
+  @_Concurrency.MainActor(unsafe) final public func convert(_ point: CoreGraphics.CGPoint, toLayerAt keypath: FinalSDK.AnimationKeypath?) -> CoreGraphics.CGPoint?
+  @_Concurrency.MainActor(unsafe) final public func setNodeIsEnabled(isEnabled: Swift.Bool, keypath: FinalSDK.AnimationKeypath)
+  @_Concurrency.MainActor(unsafe) final public func progressTime(forMarker named: Swift.String) -> FinalSDK.AnimationProgressTime?
+  @_Concurrency.MainActor(unsafe) final public func frameTime(forMarker named: Swift.String) -> FinalSDK.AnimationFrameTime?
+  @objc deinit
+}
+final public class PointValueProvider {
+  public init(block: @escaping FinalSDK.PointValueProvider.PointValueBlock)
+  public init(_ point: CoreGraphics.CGPoint)
+  public typealias PointValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGPoint
+  final public var point: CoreGraphics.CGPoint {
+    get
+    set
+  }
+  final public var valueType: Any.Type {
+    get
+  }
+  final public var storage: FinalSDK.ValueProviderStorage<FinalSDK.Vector3D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Asset : Swift.Codable {
+  required public init(from decoder: Swift.Decoder) throws
+  final public let id: Swift.String
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@objc final public class CompatibleAnimation : ObjectiveC.NSObject {
+  @objc public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) final public class CompatibleAnimationView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) public init(compatibleAnimation: FinalSDK.CompatibleAnimation)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc @_Concurrency.MainActor(unsafe) final public var compatibleAnimation: FinalSDK.CompatibleAnimation? {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var loopAnimationCount: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override final public var contentMode: UIKit.UIView.ContentMode {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var shouldRasterizeWhenIdle: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var currentProgress: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var currentTime: Foundation.TimeInterval {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var currentFrame: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationFrame: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var realtimeAnimationProgress: CoreGraphics.CGFloat {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var animationSpeed: CoreGraphics.CGFloat {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var respectAnimationFrameRate: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public var isAnimationPlaying: Swift.Bool {
+    @objc get
+  }
+  @objc @_Concurrency.MainActor(unsafe) final public func play()
+  @objc @_Concurrency.MainActor(unsafe) final public func play(completion: ((Swift.Bool) -> Swift.Void)?)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromProgress: CoreGraphics.CGFloat, toProgress: CoreGraphics.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromFrame: CoreGraphics.CGFloat, toFrame: CoreGraphics.CGFloat, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func play(fromMarker: Swift.String, toMarker: Swift.String, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc @_Concurrency.MainActor(unsafe) final public func stop()
+  @objc @_Concurrency.MainActor(unsafe) final public func pause()
+  @objc @_Concurrency.MainActor(unsafe) final public func reloadImages()
+  @objc @_Concurrency.MainActor(unsafe) final public func forceDisplayUpdate()
+  @objc @_Concurrency.MainActor(unsafe) final public func getValue(for keypath: FinalSDK.CompatibleAnimationKeypath, atFrame: CoreGraphics.CGFloat) -> Any?
+  @objc @_Concurrency.MainActor(unsafe) final public func logHierarchyKeypaths()
+  @objc @_Concurrency.MainActor(unsafe) final public func setColorValue(_ color: UIKit.UIColor, forKeypath keypath: FinalSDK.CompatibleAnimationKeypath)
+  @objc @_Concurrency.MainActor(unsafe) final public func getColorValue(for keypath: FinalSDK.CompatibleAnimationKeypath, atFrame: CoreGraphics.CGFloat) -> UIKit.UIColor?
+  @objc @_Concurrency.MainActor(unsafe) final public func addSubview(_ subview: FinalSDK.AnimationSubview, forLayerAt keypath: FinalSDK.CompatibleAnimationKeypath)
+  @objc @_Concurrency.MainActor(unsafe) final public func convert(rect: CoreGraphics.CGRect, toLayerAt keypath: FinalSDK.CompatibleAnimationKeypath?) -> CoreGraphics.CGRect
+  @objc @_Concurrency.MainActor(unsafe) final public func convert(point: CoreGraphics.CGPoint, toLayerAt keypath: FinalSDK.CompatibleAnimationKeypath?) -> CoreGraphics.CGPoint
+  @objc @_Concurrency.MainActor(unsafe) final public func progressTime(forMarker named: Swift.String) -> CoreGraphics.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) final public func frameTime(forMarker named: Swift.String) -> CoreGraphics.CGFloat
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc @_Concurrency.MainActor(unsafe) open class ProgressingDashedLineCircleView : UIKit.UIView {
+  @objc @_Concurrency.MainActor(unsafe) public var heightView: CoreGraphics.CGFloat
+  @objc @_Concurrency.MainActor(unsafe) public var isVersionPro2D: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var colorCircle: UIKit.UIColor
+  @objc @_Concurrency.MainActor(unsafe) public var maxValue: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var startAngle: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var endAngle: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var percent: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var endAngleValue: Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public var isRollBack: Swift.Bool
+  @objc @_Concurrency.MainActor(unsafe) public var value: Swift.Double {
+    @objc get
+    @objc set
+  }
+  @objc @_Concurrency.MainActor(unsafe) public func convertToRadian(degree: Swift.Double) -> Swift.Double
+  @objc @_Concurrency.MainActor(unsafe) public func reset()
+  @objc @_Concurrency.MainActor(unsafe) public func rollBack()
+  @objc @_Concurrency.MainActor(unsafe) public func drawDhashedLineCircle()
+  @objc @_Concurrency.MainActor(unsafe) public func addMartToMiddleView(margin: CoreGraphics.CGFloat)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public class LRUAnimationCache : FinalSDK.AnimationCacheProvider {
+  public init()
+  public static let sharedCache: FinalSDK.LRUAnimationCache
+  public var cacheSize: Swift.Int
+  public func clearCache()
+  public func animation(forKey: Swift.String) -> FinalSDK.Animation?
+  public func setAnimation(_ animation: FinalSDK.Animation, forKey: Swift.String)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AnimatedButton : FinalSDK.AnimatedControl {
+  @_Concurrency.MainActor(unsafe) override public init(animation: FinalSDK.Animation, configuration: FinalSDK.LottieConfiguration = .shared)
+  @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @objc override dynamic public var accessibilityTraits: UIKit.UIAccessibilityTraits {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public func setPlayRange(fromProgress: FinalSDK.AnimationProgressTime, toProgress: FinalSDK.AnimationProgressTime, event: UIKit.UIControl.Event)
+  @_Concurrency.MainActor(unsafe) public func setPlayRange(fromMarker fromName: Swift.String, toMarker toName: Swift.String, event: UIKit.UIControl.Event)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  @objc deinit
+}
+extension UIKit.UIColor {
+  public var lottieColorValue: FinalSDK.Color {
+    get
+  }
+}
+public typealias LottieCompletionBlock = (Swift.Bool) -> Swift.Void
+public typealias AnimationFrameTime = CoreGraphics.CGFloat
+public typealias AnimationProgressTime = CoreGraphics.CGFloat
+extension QuartzCore.CALayer {
+  @nonobjc public func logLayerTree(withIndent: Swift.Int = 0)
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers final public class ImageAsset : FinalSDK.Asset {
+  final public let name: Swift.String
+  final public let directory: Swift.String
+  final public let width: Swift.Double
+  final public let height: Swift.Double
+  override final public func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
+}
+final public class LottieLogger {
+  public init(assert: @escaping FinalSDK.LottieLogger.Assert = Swift.assert, assertionFailure: @escaping FinalSDK.LottieLogger.AssertionFailure = Swift.assertionFailure, warn: @escaping FinalSDK.LottieLogger.Warn = { message, _, _ in
+    }, info: @escaping FinalSDK.LottieLogger.Info = { message in
+    })
+  public typealias Assert = (_ condition: @autoclosure () -> Swift.Bool, _ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias AssertionFailure = (_ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias Warn = (_ message: @autoclosure () -> Swift.String, _ fileID: Swift.StaticString, _ line: Swift.UInt) -> Swift.Void
+  public typealias Info = (_ message: @autoclosure () -> Swift.String) -> Swift.Void
+  public static var shared: FinalSDK.LottieLogger
+  final public func assert(_ condition: @autoclosure () -> Swift.Bool, _ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func assertionFailure(_ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func warn(_ message: @autoclosure () -> Swift.String = String(), fileID: Swift.StaticString = #fileID, line: Swift.UInt = #line)
+  final public func info(_ message: @autoclosure () -> Swift.String = String())
+  @objc deinit
+}
+extension FinalSDK.LottieLogger {
+  public static var printToConsole: FinalSDK.LottieLogger {
+    get
+  }
+}
+public protocol AnyValueProvider {
+  var valueType: Any.Type { get }
+  var typeErasedStorage: FinalSDK.AnyValueProviderStorage { get }
+  func hasUpdate(frame: FinalSDK.AnimationFrameTime) -> Swift.Bool
+}
+extension FinalSDK.AnyValueProvider {
+  public func value(frame: FinalSDK.AnimationFrameTime) -> Any
+}
+public enum ValueProviderStorage<T> where T : FinalSDK.AnyInterpolatable {
+  case singleValue(T)
+  case keyframes([FinalSDK.Keyframe<T>])
+  case closure((FinalSDK.AnimationFrameTime) -> T)
+}
+public enum AnyValueProviderStorage {
+  case singleValue(Any)
+  case keyframes([FinalSDK.Keyframe<Any>], interpolate: (FinalSDK.AnimationFrameTime) -> Any)
+  case closure((FinalSDK.AnimationFrameTime) -> Any)
+}
+final public class GradientValueProvider {
+  public init(block: @escaping FinalSDK.GradientValueProvider.ColorsValueBlock, locations: FinalSDK.GradientValueProvider.ColorLocationsBlock? = nil)
+  public init(_ colors: [FinalSDK.Color], locations: [Swift.Double] = [])
+  public typealias ColorsValueBlock = (CoreGraphics.CGFloat) -> [FinalSDK.Color]
+  public typealias ColorLocationsBlock = (CoreGraphics.CGFloat) -> [Swift.Double]
+  final public var colors: [FinalSDK.Color] {
+    get
+    set
+  }
+  final public var locations: [Swift.Double] {
+    get
+    set
+  }
+  final public var valueType: Any.Type {
+    get
+  }
+  final public var storage: FinalSDK.ValueProviderStorage<[Swift.Double]> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+@objc @_Concurrency.MainActor(unsafe) open class AnimatedControl : UIKit.UIControl {
+  @_Concurrency.MainActor(unsafe) public init(animation: FinalSDK.Animation, configuration: FinalSDK.LottieConfiguration = .shared)
+  @objc dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isEnabled: Swift.Bool {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isSelected: Swift.Bool {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var isHighlighted: Swift.Bool {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open var intrinsicContentSize: CoreGraphics.CGSize {
+    @_Concurrency.MainActor(unsafe) @objc get
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func beginTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func continueTracking(_ touch: UIKit.UITouch, with event: UIKit.UIEvent?) -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func cancelTracking(with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) open func animationDidSet()
+  @_Concurrency.MainActor(unsafe) final public let animationView: FinalSDK.AnimationView
+  @_Concurrency.MainActor(unsafe) public var animation: FinalSDK.Animation? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public var animationSpeed: CoreGraphics.CGFloat {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func setLayer(named: Swift.String, forState: UIKit.UIControl.State)
+  @_Concurrency.MainActor(unsafe) public func setValueProvider(_ valueProvider: FinalSDK.AnyValueProvider, keypath: FinalSDK.AnimationKeypath)
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class AnimationViewBase : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var contentMode: UIKit.UIView.ContentMode {
+    @_Concurrency.MainActor(unsafe) @objc get
+    @_Concurrency.MainActor(unsafe) @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didMoveToWindow()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func layoutSubviews()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@objc final public class CompatibleAnimationKeypath : ObjectiveC.NSObject {
+  @objc public init(keypath: Swift.String)
+  @objc public init(keys: [Swift.String])
+  final public let animationKeypath: FinalSDK.AnimationKeypath
+  @objc deinit
+}
+public enum CoordinateSpace : Swift.Int, Swift.Codable {
+  case type2d
+  case type3d
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+final public class Animation : Swift.Codable {
+  required public init(from decoder: Swift.Decoder) throws
+  public init(dictionary: [Swift.String : Any]) throws
+  final public let startFrame: FinalSDK.AnimationFrameTime
+  final public let endFrame: FinalSDK.AnimationFrameTime
+  final public let framerate: Swift.Double
+  final public var markerNames: [Swift.String] {
+    get
+  }
+  @objc deinit
+  final public func encode(to encoder: Swift.Encoder) throws
+}
+public struct LottieConfiguration : Swift.Hashable {
+  public init(renderingEngine: FinalSDK.RenderingEngineOption = .mainThread, decodingStrategy: FinalSDK.DecodingStrategy = .codable)
+  public static var shared: FinalSDK.LottieConfiguration
+  public var renderingEngine: FinalSDK.RenderingEngineOption
+  public var decodingStrategy: FinalSDK.DecodingStrategy
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FinalSDK.LottieConfiguration, b: FinalSDK.LottieConfiguration) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum RenderingEngineOption : Swift.Hashable {
+  case automatic
+  case specific(FinalSDK.RenderingEngine)
+  public static var mainThread: FinalSDK.RenderingEngineOption {
+    get
+  }
+  public static var coreAnimation: FinalSDK.RenderingEngineOption {
+    get
+  }
+}
+public enum RenderingEngine : Swift.Hashable {
+  case mainThread
+  case coreAnimation
+}
+extension FinalSDK.RenderingEngineOption : Swift.RawRepresentable, Swift.CustomStringConvertible {
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+}
+extension FinalSDK.RenderingEngine : Swift.RawRepresentable, Swift.CustomStringConvertible {
+  public init?(rawValue: Swift.String)
+  public var rawValue: Swift.String {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+  public typealias RawValue = Swift.String
+}
+public enum DecodingStrategy : Swift.Hashable {
+  case codable
+  case dictionaryBased
+  public static func == (a: FinalSDK.DecodingStrategy, b: FinalSDK.DecodingStrategy) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public class FilepathImageProvider : FinalSDK.AnimationImageProvider {
+  public init(filepath: Swift.String)
+  public init(filepath: Foundation.URL)
+  public func imageForAsset(asset: FinalSDK.ImageAsset) -> CoreGraphics.CGImage?
+  @objc deinit
+}
+public struct Vector1D : Swift.Hashable {
+  public init(_ value: Swift.Double)
+  public let value: Swift.Double
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FinalSDK.Vector1D, b: FinalSDK.Vector1D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Vector3D : Swift.Hashable {
+  public let x: Swift.Double
+  public let y: Swift.Double
+  public let z: Swift.Double
+  public init(x: Swift.Double, y: Swift.Double, z: Swift.Double)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FinalSDK.Vector3D, b: FinalSDK.Vector3D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum ColorFormatDenominator : Swift.Hashable {
+  case One
+  case OneHundred
+  case TwoFiftyFive
+  public static func == (a: FinalSDK.ColorFormatDenominator, b: FinalSDK.ColorFormatDenominator) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Color : Swift.Hashable {
+  public var r: Swift.Double
+  public var g: Swift.Double
+  public var b: Swift.Double
+  public var a: Swift.Double
+  public init(r: Swift.Double, g: Swift.Double, b: Swift.Double, a: Swift.Double, denominator: FinalSDK.ColorFormatDenominator = .One)
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FinalSDK.Color, b: FinalSDK.Color) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension FinalSDK.Vector1D : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+public struct Vector2D : Swift.Codable, Swift.Hashable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FinalSDK.Vector2D, b: FinalSDK.Vector2D) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+extension FinalSDK.Vector3D : Swift.Codable {
+  public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: Swift.Encoder) throws
+}
+extension FinalSDK.Vector3D {
+  public var pointValue: CoreGraphics.CGPoint {
+    get
+  }
+  public var sizeValue: CoreGraphics.CGSize {
+    get
+  }
+}
+public struct AnimationKeypath : Swift.Hashable, Swift.ExpressibleByStringLiteral {
+  public init(keypath: Swift.String)
+  public init(stringLiteral: Swift.String)
+  public init(keys: [Swift.String])
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (a: FinalSDK.AnimationKeypath, b: FinalSDK.AnimationKeypath) -> Swift.Bool
+  public typealias ExtendedGraphemeClusterLiteralType = Swift.String
+  public typealias StringLiteralType = Swift.String
+  public typealias UnicodeScalarLiteralType = Swift.String
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum LayerType : Swift.Int, Swift.Codable {
+  case precomp
+  case solid
+  case image
+  case null
+  case shape
+  case text
+  public init(from decoder: Swift.Decoder) throws
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum MatteType : Swift.Int, Swift.Codable {
+  case none
+  case add
+  case invert
+  case unknown
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+public enum BlendMode : Swift.Int, Swift.Codable {
+  case normal
+  case multiply
+  case screen
+  case overlay
+  case darken
+  case lighten
+  case colorDodge
+  case colorBurn
+  case hardLight
+  case softLight
+  case difference
+  case exclusion
+  case hue
+  case saturation
+  case color
+  case luminosity
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AnimatedSwitch : FinalSDK.AnimatedControl {
+  @_Concurrency.MainActor(unsafe) override public init(animation: FinalSDK.Animation, configuration: FinalSDK.LottieConfiguration = .shared)
+  @objc override dynamic public init()
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder aDecoder: Foundation.NSCoder)
+  public enum CancelBehavior {
+    case reverse
+    case none
+    public static func == (a: FinalSDK.AnimatedSwitch.CancelBehavior, b: FinalSDK.AnimatedSwitch.CancelBehavior) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  @_Concurrency.MainActor(unsafe) public var cancelBehavior: FinalSDK.AnimatedSwitch.CancelBehavior
+  @objc override dynamic public var accessibilityTraits: UIKit.UIAccessibilityTraits {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) public var isOn: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) public func setIsOn(_ isOn: Swift.Bool, animated: Swift.Bool, shouldFireHaptics: Swift.Bool = true)
+  @_Concurrency.MainActor(unsafe) public func setProgressForState(fromProgress: FinalSDK.AnimationProgressTime, toProgress: FinalSDK.AnimationProgressTime, forOnState: Swift.Bool)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func endTracking(_ touch: UIKit.UITouch?, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) override public func animationDidSet()
+  @objc deinit
+}
+public protocol AnimationImageProvider {
+  func imageForAsset(asset: FinalSDK.ImageAsset) -> CoreGraphics.CGImage?
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) final public class AnimationSubview : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+public protocol AnimationTextProvider : AnyObject {
+  func textFor(keypathName: Swift.String, sourceText: Swift.String) -> Swift.String
+}
+final public class DictionaryTextProvider : FinalSDK.AnimationTextProvider {
+  public init(_ values: [Swift.String : Swift.String])
+  final public func textFor(keypathName: Swift.String, sourceText: Swift.String) -> Swift.String
+  @objc deinit
+}
+final public class DefaultTextProvider : FinalSDK.AnimationTextProvider {
+  public init()
+  final public func textFor(keypathName _: Swift.String, sourceText: Swift.String) -> Swift.String
+  @objc deinit
+}
+extension FinalSDK.AnimationView {
+  @_Concurrency.MainActor(unsafe) convenience public init(name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: FinalSDK.AnimationImageProvider? = nil, animationCache: FinalSDK.AnimationCacheProvider? = LRUAnimationCache.sharedCache, configuration: FinalSDK.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) convenience public init(filePath: Swift.String, imageProvider: FinalSDK.AnimationImageProvider? = nil, animationCache: FinalSDK.AnimationCacheProvider? = LRUAnimationCache.sharedCache, configuration: FinalSDK.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) convenience public init(url: Foundation.URL, imageProvider: FinalSDK.AnimationImageProvider? = nil, closure: @escaping FinalSDK.AnimationView.DownloadClosure, animationCache: FinalSDK.AnimationCacheProvider? = LRUAnimationCache.sharedCache, configuration: FinalSDK.LottieConfiguration = .shared)
+  @_Concurrency.MainActor(unsafe) convenience public init(asset name: Swift.String, bundle: Foundation.Bundle = Bundle.main, imageProvider: FinalSDK.AnimationImageProvider? = nil, animationCache: FinalSDK.AnimationCacheProvider? = LRUAnimationCache.sharedCache, configuration: FinalSDK.LottieConfiguration = .shared)
+  public typealias DownloadClosure = (Swift.Error?) -> Swift.Void
+}
+public protocol AnimationCacheProvider {
+  func animation(forKey: Swift.String) -> FinalSDK.Animation?
+  func setAnimation(_ animation: FinalSDK.Animation, forKey: Swift.String)
+  func clearCache()
+}
+extension FinalSDK.Animation {
+  public typealias DownloadClosure = (FinalSDK.Animation?) -> Swift.Void
+  final public var duration: Foundation.TimeInterval {
+    get
+  }
+  final public var bounds: CoreGraphics.CGRect {
+    get
+  }
+  final public var size: CoreGraphics.CGSize {
+    get
+  }
+  public static func named(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, subdirectory: Swift.String? = nil, animationCache: FinalSDK.AnimationCacheProvider? = nil) -> FinalSDK.Animation?
+  public static func filepath(_ filepath: Swift.String, animationCache: FinalSDK.AnimationCacheProvider? = nil) -> FinalSDK.Animation?
+  public static func asset(_ name: Swift.String, bundle: Foundation.Bundle = Bundle.main, animationCache: FinalSDK.AnimationCacheProvider? = nil) -> FinalSDK.Animation?
+  public static func from(data: Foundation.Data, strategy: FinalSDK.DecodingStrategy = LottieConfiguration.shared.decodingStrategy) throws -> FinalSDK.Animation
+  public static func loadedFrom(url: Foundation.URL, closure: @escaping FinalSDK.Animation.DownloadClosure, animationCache: FinalSDK.AnimationCacheProvider?)
+  final public func progressTime(forMarker named: Swift.String) -> FinalSDK.AnimationProgressTime?
+  final public func frameTime(forMarker named: Swift.String) -> FinalSDK.AnimationFrameTime?
+  final public func progressTime(forFrame frameTime: FinalSDK.AnimationFrameTime, clamped: Swift.Bool = true) -> FinalSDK.AnimationProgressTime
+  final public func frameTime(forProgress progressTime: FinalSDK.AnimationProgressTime) -> FinalSDK.AnimationFrameTime
+  final public func time(forFrame frameTime: FinalSDK.AnimationFrameTime) -> Foundation.TimeInterval
+  final public func frameTime(forTime time: Foundation.TimeInterval) -> FinalSDK.AnimationFrameTime
+}
+final public class SizeValueProvider {
+  public init(block: @escaping FinalSDK.SizeValueProvider.SizeValueBlock)
+  public init(_ size: CoreGraphics.CGSize)
+  public typealias SizeValueBlock = (CoreGraphics.CGFloat) -> CoreGraphics.CGSize
+  final public var size: CoreGraphics.CGSize {
+    get
+    set
+  }
+  final public var valueType: Any.Type {
+    get
+  }
+  final public var storage: FinalSDK.ValueProviderStorage<FinalSDK.Vector3D> {
+    get
+  }
+  final public func hasUpdate(frame _: CoreGraphics.CGFloat) -> Swift.Bool
+  @objc deinit
+}
+public protocol AnimationFontProvider {
+  func fontFor(family: Swift.String, size: CoreGraphics.CGFloat) -> CoreText.CTFont?
+}
+final public class DefaultFontProvider : FinalSDK.AnimationFontProvider {
+  public init()
+  final public func fontFor(family: Swift.String, size: CoreGraphics.CGFloat) -> CoreText.CTFont?
+  @objc deinit
+}
+final public class Keyframe<T> {
+  public init(_ value: T, spatialInTangent: FinalSDK.Vector3D? = nil, spatialOutTangent: FinalSDK.Vector3D? = nil)
+  public init(value: T, time: FinalSDK.AnimationFrameTime, isHold: Swift.Bool = false, inTangent: FinalSDK.Vector2D? = nil, outTangent: FinalSDK.Vector2D? = nil, spatialInTangent: FinalSDK.Vector3D? = nil, spatialOutTangent: FinalSDK.Vector3D? = nil)
+  final public let value: T
+  final public let time: FinalSDK.AnimationFrameTime
+  final public let isHold: Swift.Bool
+  final public let inTangent: FinalSDK.Vector2D?
+  final public let outTangent: FinalSDK.Vector2D?
+  final public let spatialInTangent: FinalSDK.Vector3D?
+  final public let spatialOutTangent: FinalSDK.Vector3D?
+  @objc deinit
+}
+extension FinalSDK.Keyframe : Swift.Equatable where T : Swift.Equatable {
+  public static func == (lhs: FinalSDK.Keyframe<T>, rhs: FinalSDK.Keyframe<T>) -> Swift.Bool
+}
+extension FinalSDK.Keyframe : Swift.Hashable where T : Swift.Hashable {
+  final public func hash(into hasher: inout Swift.Hasher)
+  final public var hashValue: Swift.Int {
+    get
+  }
+}
+extension FinalSDK.ColorValueProvider : FinalSDK.AnyValueProvider {}
+extension FinalSDK.FloatValueProvider : FinalSDK.AnyValueProvider {}
+extension FinalSDK.LottieBackgroundBehavior : Swift.Equatable {}
+extension FinalSDK.LottieBackgroundBehavior : Swift.Hashable {}
+extension FinalSDK.PointValueProvider : FinalSDK.AnyValueProvider {}
+extension FinalSDK.GradientValueProvider : FinalSDK.AnyValueProvider {}
+extension FinalSDK.CoordinateSpace : Swift.Equatable {}
+extension FinalSDK.CoordinateSpace : Swift.Hashable {}
+extension FinalSDK.CoordinateSpace : Swift.RawRepresentable {}
+extension FinalSDK.BlendMode : Swift.Equatable {}
+extension FinalSDK.BlendMode : Swift.Hashable {}
+extension FinalSDK.BlendMode : Swift.RawRepresentable {}
+extension FinalSDK.LayerType : Swift.Equatable {}
+extension FinalSDK.LayerType : Swift.Hashable {}
+extension FinalSDK.LayerType : Swift.RawRepresentable {}
+extension FinalSDK.MatteType : Swift.Equatable {}
+extension FinalSDK.MatteType : Swift.Hashable {}
+extension FinalSDK.MatteType : Swift.RawRepresentable {}
+extension FinalSDK.AnimatedSwitch.CancelBehavior : Swift.Equatable {}
+extension FinalSDK.AnimatedSwitch.CancelBehavior : Swift.Hashable {}
+extension FinalSDK.SizeValueProvider : FinalSDK.AnyValueProvider {}

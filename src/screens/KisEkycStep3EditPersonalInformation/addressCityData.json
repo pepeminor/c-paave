@@ -1,0 +1,3968 @@
+[
+  {
+    "cityCode": "01",
+    "cityLabel": "Thành phố Hà Nội",
+    "cityLevel": "Thành phố Trung ương",
+    "districtList": [
+      {
+        "districtLabel": "Quận Ba Đình",
+        "districtCode": "001",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Hoàn Kiếm",
+        "districtCode": "002",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Tây Hồ",
+        "districtCode": "003",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Long Biên",
+        "districtCode": "004",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Cầu Giấy",
+        "districtCode": "005",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Đống Đa",
+        "districtCode": "006",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Hai Bà Trưng",
+        "districtCode": "007",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Hoàng Mai",
+        "districtCode": "008",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Thanh Xuân",
+        "districtCode": "009",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Huyện Sóc Sơn",
+        "districtCode": "016",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đông Anh",
+        "districtCode": "017",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gia Lâm",
+        "districtCode": "018",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Quận Nam Từ Liêm",
+        "districtCode": "019",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Huyện Thanh Trì",
+        "districtCode": "020",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Quận Bắc Từ Liêm",
+        "districtCode": "021",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Huyện Mê Linh",
+        "districtCode": "250",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Quận Hà Đông",
+        "districtCode": "268",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Thị xã Sơn Tây",
+        "districtCode": "269",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Ba Vì",
+        "districtCode": "271",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phúc Thọ",
+        "districtCode": "272",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đan Phượng",
+        "districtCode": "273",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hoài Đức",
+        "districtCode": "274",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quốc Oai",
+        "districtCode": "275",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thạch Thất",
+        "districtCode": "276",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chương Mỹ",
+        "districtCode": "277",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Oai",
+        "districtCode": "278",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thường Tín",
+        "districtCode": "279",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Xuyên",
+        "districtCode": "280",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ứng Hòa",
+        "districtCode": "281",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mỹ Đức",
+        "districtCode": "282",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "02",
+    "cityLabel": "Tỉnh Hà Giang",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Hà Giang",
+        "districtCode": "024",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Đồng Văn",
+        "districtCode": "026",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mèo Vạc",
+        "districtCode": "027",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Minh",
+        "districtCode": "028",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quản Bạ",
+        "districtCode": "029",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vị Xuyên",
+        "districtCode": "030",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bắc Mê",
+        "districtCode": "031",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hoàng Su Phì",
+        "districtCode": "032",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Xín Mần",
+        "districtCode": "033",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bắc Quang",
+        "districtCode": "034",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quang Bình",
+        "districtCode": "035",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "04",
+    "cityLabel": "Tỉnh Cao Bằng",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Cao Bằng",
+        "districtCode": "040",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Bảo Lâm",
+        "districtCode": "042",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bảo Lạc",
+        "districtCode": "043",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hà Quảng",
+        "districtCode": "045",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trùng Khánh",
+        "districtCode": "047",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hạ Lang",
+        "districtCode": "048",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quảng Hòa",
+        "districtCode": "049",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hoà An",
+        "districtCode": "051",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nguyên Bình",
+        "districtCode": "052",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thạch An",
+        "districtCode": "053",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "06",
+    "cityLabel": "Tỉnh Bắc Kạn",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành Phố Bắc Kạn",
+        "districtCode": "058",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Pác Nặm",
+        "districtCode": "060",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ba Bể",
+        "districtCode": "061",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ngân Sơn",
+        "districtCode": "062",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bạch Thông",
+        "districtCode": "063",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chợ Đồn",
+        "districtCode": "064",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chợ Mới",
+        "districtCode": "065",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Na Rì",
+        "districtCode": "066",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "08",
+    "cityLabel": "Tỉnh Tuyên Quang",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Tuyên Quang",
+        "districtCode": "070",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Lâm Bình",
+        "districtCode": "071",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Na Hang",
+        "districtCode": "072",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chiêm Hóa",
+        "districtCode": "073",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hàm Yên",
+        "districtCode": "074",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Sơn",
+        "districtCode": "075",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sơn Dương",
+        "districtCode": "076",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "10",
+    "cityLabel": "Tỉnh Lào Cai",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Lào Cai",
+        "districtCode": "080",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Bát Xát",
+        "districtCode": "082",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mường Khương",
+        "districtCode": "083",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Si Ma Cai",
+        "districtCode": "084",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bắc Hà",
+        "districtCode": "085",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bảo Thắng",
+        "districtCode": "086",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bảo Yên",
+        "districtCode": "087",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Sa Pa",
+        "districtCode": "088",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Văn Bàn",
+        "districtCode": "089",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "11",
+    "cityLabel": "Tỉnh Điện Biên",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Điện Biên Phủ",
+        "districtCode": "094",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị Xã Mường Lay",
+        "districtCode": "095",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Mường Nhé",
+        "districtCode": "096",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mường Chà",
+        "districtCode": "097",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tủa Chùa",
+        "districtCode": "098",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tuần Giáo",
+        "districtCode": "099",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Điện Biên",
+        "districtCode": "100",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Điện Biên Đông",
+        "districtCode": "101",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mường Ảng",
+        "districtCode": "102",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nậm Pồ",
+        "districtCode": "103",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "12",
+    "cityLabel": "Tỉnh Lai Châu",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Lai Châu",
+        "districtCode": "105",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Tam Đường",
+        "districtCode": "106",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mường Tè",
+        "districtCode": "107",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sìn Hồ",
+        "districtCode": "108",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phong Thổ",
+        "districtCode": "109",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Than Uyên",
+        "districtCode": "110",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Uyên",
+        "districtCode": "111",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nậm Nhùn",
+        "districtCode": "112",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "14",
+    "cityLabel": "Tỉnh Sơn La",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Sơn La",
+        "districtCode": "116",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Quỳnh Nhai",
+        "districtCode": "118",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thuận Châu",
+        "districtCode": "119",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mường La",
+        "districtCode": "120",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bắc Yên",
+        "districtCode": "121",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phù Yên",
+        "districtCode": "122",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mộc Châu",
+        "districtCode": "123",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Châu",
+        "districtCode": "124",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mai Sơn",
+        "districtCode": "125",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sông Mã",
+        "districtCode": "126",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sốp Cộp",
+        "districtCode": "127",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vân Hồ",
+        "districtCode": "128",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "15",
+    "cityLabel": "Tỉnh Yên Bái",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Yên Bái",
+        "districtCode": "132",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Nghĩa Lộ",
+        "districtCode": "133",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Lục Yên",
+        "districtCode": "135",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Văn Yên",
+        "districtCode": "136",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mù Căng Chải",
+        "districtCode": "137",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trấn Yên",
+        "districtCode": "138",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trạm Tấu",
+        "districtCode": "139",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Văn Chấn",
+        "districtCode": "140",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Bình",
+        "districtCode": "141",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "17",
+    "cityLabel": "Tỉnh Hoà Bình",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Hòa Bình",
+        "districtCode": "148",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Đà Bắc",
+        "districtCode": "150",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lương Sơn",
+        "districtCode": "152",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kim Bôi",
+        "districtCode": "153",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cao Phong",
+        "districtCode": "154",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Lạc",
+        "districtCode": "155",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mai Châu",
+        "districtCode": "156",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lạc Sơn",
+        "districtCode": "157",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Thủy",
+        "districtCode": "158",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lạc Thủy",
+        "districtCode": "159",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "19",
+    "cityLabel": "Tỉnh Thái Nguyên",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Thái Nguyên",
+        "districtCode": "164",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Sông Công",
+        "districtCode": "165",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Định Hóa",
+        "districtCode": "167",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Lương",
+        "districtCode": "168",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đồng Hỷ",
+        "districtCode": "169",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Võ Nhai",
+        "districtCode": "170",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đại Từ",
+        "districtCode": "171",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thành phố Phổ Yên",
+        "districtCode": "172",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Phú Bình",
+        "districtCode": "173",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "20",
+    "cityLabel": "Tỉnh Lạng Sơn",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Lạng Sơn",
+        "districtCode": "178",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Tràng Định",
+        "districtCode": "180",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bình Gia",
+        "districtCode": "181",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Văn Lãng",
+        "districtCode": "182",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cao Lộc",
+        "districtCode": "183",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Văn Quan",
+        "districtCode": "184",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bắc Sơn",
+        "districtCode": "185",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hữu Lũng",
+        "districtCode": "186",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chi Lăng",
+        "districtCode": "187",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lộc Bình",
+        "districtCode": "188",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đình Lập",
+        "districtCode": "189",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "22",
+    "cityLabel": "Tỉnh Quảng Ninh",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Hạ Long",
+        "districtCode": "193",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Móng Cái",
+        "districtCode": "194",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Cẩm Phả",
+        "districtCode": "195",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Uông Bí",
+        "districtCode": "196",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Bình Liêu",
+        "districtCode": "198",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tiên Yên",
+        "districtCode": "199",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đầm Hà",
+        "districtCode": "200",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hải Hà",
+        "districtCode": "201",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ba Chẽ",
+        "districtCode": "202",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vân Đồn",
+        "districtCode": "203",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Đông Triều",
+        "districtCode": "205",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thị xã Quảng Yên",
+        "districtCode": "206",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Cô Tô",
+        "districtCode": "207",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "24",
+    "cityLabel": "Tỉnh Bắc Giang",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Bắc Giang",
+        "districtCode": "213",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Yên Thế",
+        "districtCode": "215",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Yên",
+        "districtCode": "216",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lạng Giang",
+        "districtCode": "217",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lục Nam",
+        "districtCode": "218",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lục Ngạn",
+        "districtCode": "219",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sơn Động",
+        "districtCode": "220",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Dũng",
+        "districtCode": "221",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Việt Yên",
+        "districtCode": "222",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hiệp Hòa",
+        "districtCode": "223",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "25",
+    "cityLabel": "Tỉnh Phú Thọ",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Việt Trì",
+        "districtCode": "227",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Phú Thọ",
+        "districtCode": "228",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Đoan Hùng",
+        "districtCode": "230",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hạ Hoà",
+        "districtCode": "231",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Ba",
+        "districtCode": "232",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phù Ninh",
+        "districtCode": "233",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Lập",
+        "districtCode": "234",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cẩm Khê",
+        "districtCode": "235",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tam Nông",
+        "districtCode": "236",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lâm Thao",
+        "districtCode": "237",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Sơn",
+        "districtCode": "238",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Thuỷ",
+        "districtCode": "239",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Sơn",
+        "districtCode": "240",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "26",
+    "cityLabel": "Tỉnh Vĩnh Phúc",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Vĩnh Yên",
+        "districtCode": "243",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Phúc Yên",
+        "districtCode": "244",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Lập Thạch",
+        "districtCode": "246",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tam Dương",
+        "districtCode": "247",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tam Đảo",
+        "districtCode": "248",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bình Xuyên",
+        "districtCode": "249",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Lạc",
+        "districtCode": "251",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Tường",
+        "districtCode": "252",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sông Lô",
+        "districtCode": "253",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "27",
+    "cityLabel": "Tỉnh Bắc Ninh",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Bắc Ninh",
+        "districtCode": "256",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Yên Phong",
+        "districtCode": "258",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quế Võ",
+        "districtCode": "259",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tiên Du",
+        "districtCode": "260",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thành phố Từ Sơn",
+        "districtCode": "261",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Thuận Thành",
+        "districtCode": "262",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gia Bình",
+        "districtCode": "263",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lương Tài",
+        "districtCode": "264",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "30",
+    "cityLabel": "Tỉnh Hải Dương",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Hải Dương",
+        "districtCode": "288",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Chí Linh",
+        "districtCode": "290",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Nam Sách",
+        "districtCode": "291",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Kinh Môn",
+        "districtCode": "292",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Kim Thành",
+        "districtCode": "293",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Hà",
+        "districtCode": "294",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cẩm Giàng",
+        "districtCode": "295",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bình Giang",
+        "districtCode": "296",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gia Lộc",
+        "districtCode": "297",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tứ Kỳ",
+        "districtCode": "298",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ninh Giang",
+        "districtCode": "299",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Miện",
+        "districtCode": "300",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "31",
+    "cityLabel": "Thành phố Hải Phòng",
+    "cityLevel": "Thành phố Trung ương",
+    "districtList": [
+      {
+        "districtLabel": "Quận Hồng Bàng",
+        "districtCode": "303",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Ngô Quyền",
+        "districtCode": "304",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Lê Chân",
+        "districtCode": "305",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Hải An",
+        "districtCode": "306",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Kiến An",
+        "districtCode": "307",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Đồ Sơn",
+        "districtCode": "308",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Dương Kinh",
+        "districtCode": "309",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Huyện Thuỷ Nguyên",
+        "districtCode": "311",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện An Dương",
+        "districtCode": "312",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện An Lão",
+        "districtCode": "313",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kiến Thuỵ",
+        "districtCode": "314",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tiên Lãng",
+        "districtCode": "315",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Bảo",
+        "districtCode": "316",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cát Hải",
+        "districtCode": "317",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bạch Long Vĩ",
+        "districtCode": "318",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "33",
+    "cityLabel": "Tỉnh Hưng Yên",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Hưng Yên",
+        "districtCode": "323",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Văn Lâm",
+        "districtCode": "325",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Văn Giang",
+        "districtCode": "326",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Mỹ",
+        "districtCode": "327",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Mỹ Hào",
+        "districtCode": "328",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Ân Thi",
+        "districtCode": "329",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Khoái Châu",
+        "districtCode": "330",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kim Động",
+        "districtCode": "331",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tiên Lữ",
+        "districtCode": "332",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phù Cừ",
+        "districtCode": "333",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "34",
+    "cityLabel": "Tỉnh Thái Bình",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Thái Bình",
+        "districtCode": "336",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Quỳnh Phụ",
+        "districtCode": "338",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hưng Hà",
+        "districtCode": "339",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đông Hưng",
+        "districtCode": "340",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thái Thụy",
+        "districtCode": "341",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tiền Hải",
+        "districtCode": "342",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kiến Xương",
+        "districtCode": "343",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vũ Thư",
+        "districtCode": "344",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "35",
+    "cityLabel": "Tỉnh Hà Nam",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Phủ Lý",
+        "districtCode": "347",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Duy Tiên",
+        "districtCode": "349",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Kim Bảng",
+        "districtCode": "350",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Liêm",
+        "districtCode": "351",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bình Lục",
+        "districtCode": "352",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lý Nhân",
+        "districtCode": "353",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "36",
+    "cityLabel": "Tỉnh Nam Định",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Nam Định",
+        "districtCode": "356",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Mỹ Lộc",
+        "districtCode": "358",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vụ Bản",
+        "districtCode": "359",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ý Yên",
+        "districtCode": "360",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nghĩa Hưng",
+        "districtCode": "361",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nam Trực",
+        "districtCode": "362",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trực Ninh",
+        "districtCode": "363",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Xuân Trường",
+        "districtCode": "364",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Giao Thủy",
+        "districtCode": "365",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hải Hậu",
+        "districtCode": "366",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "37",
+    "cityLabel": "Tỉnh Ninh Bình",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Ninh Bình",
+        "districtCode": "369",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Tam Điệp",
+        "districtCode": "370",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Nho Quan",
+        "districtCode": "372",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gia Viễn",
+        "districtCode": "373",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hoa Lư",
+        "districtCode": "374",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Khánh",
+        "districtCode": "375",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kim Sơn",
+        "districtCode": "376",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Mô",
+        "districtCode": "377",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "38",
+    "cityLabel": "Tỉnh Thanh Hóa",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Thanh Hóa",
+        "districtCode": "380",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Bỉm Sơn",
+        "districtCode": "381",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thành phố Sầm Sơn",
+        "districtCode": "382",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Mường Lát",
+        "districtCode": "384",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quan Hóa",
+        "districtCode": "385",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bá Thước",
+        "districtCode": "386",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quan Sơn",
+        "districtCode": "387",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lang Chánh",
+        "districtCode": "388",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ngọc Lặc",
+        "districtCode": "389",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cẩm Thủy",
+        "districtCode": "390",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thạch Thành",
+        "districtCode": "391",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hà Trung",
+        "districtCode": "392",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Lộc",
+        "districtCode": "393",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Định",
+        "districtCode": "394",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thọ Xuân",
+        "districtCode": "395",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thường Xuân",
+        "districtCode": "396",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Triệu Sơn",
+        "districtCode": "397",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thiệu Hóa",
+        "districtCode": "398",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hoằng Hóa",
+        "districtCode": "399",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hậu Lộc",
+        "districtCode": "400",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nga Sơn",
+        "districtCode": "401",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Như Xuân",
+        "districtCode": "402",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Như Thanh",
+        "districtCode": "403",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nông Cống",
+        "districtCode": "404",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đông Sơn",
+        "districtCode": "405",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quảng Xương",
+        "districtCode": "406",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Nghi Sơn",
+        "districtCode": "407",
+        "districtLevel": "Thị xã"
+      }
+    ]
+  },
+  {
+    "cityCode": "40",
+    "cityLabel": "Tỉnh Nghệ An",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Vinh",
+        "districtCode": "412",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Cửa Lò",
+        "districtCode": "413",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thị xã Thái Hoà",
+        "districtCode": "414",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Quế Phong",
+        "districtCode": "415",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quỳ Châu",
+        "districtCode": "416",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kỳ Sơn",
+        "districtCode": "417",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tương Dương",
+        "districtCode": "418",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nghĩa Đàn",
+        "districtCode": "419",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quỳ Hợp",
+        "districtCode": "420",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quỳnh Lưu",
+        "districtCode": "421",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Con Cuông",
+        "districtCode": "422",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Kỳ",
+        "districtCode": "423",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Anh Sơn",
+        "districtCode": "424",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Diễn Châu",
+        "districtCode": "425",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Yên Thành",
+        "districtCode": "426",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đô Lương",
+        "districtCode": "427",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Chương",
+        "districtCode": "428",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nghi Lộc",
+        "districtCode": "429",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nam Đàn",
+        "districtCode": "430",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hưng Nguyên",
+        "districtCode": "431",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Hoàng Mai",
+        "districtCode": "432",
+        "districtLevel": "Thị xã"
+      }
+    ]
+  },
+  {
+    "cityCode": "42",
+    "cityLabel": "Tỉnh Hà Tĩnh",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Hà Tĩnh",
+        "districtCode": "436",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Hồng Lĩnh",
+        "districtCode": "437",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Hương Sơn",
+        "districtCode": "439",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đức Thọ",
+        "districtCode": "440",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vũ Quang",
+        "districtCode": "441",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nghi Xuân",
+        "districtCode": "442",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Can Lộc",
+        "districtCode": "443",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hương Khê",
+        "districtCode": "444",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thạch Hà",
+        "districtCode": "445",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cẩm Xuyên",
+        "districtCode": "446",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Kỳ Anh",
+        "districtCode": "449",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Lộc Hà",
+        "districtCode": "448",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kỳ Anh",
+        "districtCode": "447",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "44",
+    "cityLabel": "Tỉnh Quảng Bình",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành Phố Đồng Hới",
+        "districtCode": "450",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Minh Hóa",
+        "districtCode": "452",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tuyên Hóa",
+        "districtCode": "453",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quảng Trạch",
+        "districtCode": "454",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bố Trạch",
+        "districtCode": "455",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quảng Ninh",
+        "districtCode": "456",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lệ Thủy",
+        "districtCode": "457",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Ba Đồn",
+        "districtCode": "458",
+        "districtLevel": "Thị xã"
+      }
+    ]
+  },
+  {
+    "cityCode": "45",
+    "cityLabel": "Tỉnh Quảng Trị",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Đông Hà",
+        "districtCode": "461",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Quảng Trị",
+        "districtCode": "462",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Linh",
+        "districtCode": "464",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hướng Hóa",
+        "districtCode": "465",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gio Linh",
+        "districtCode": "466",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đa Krông",
+        "districtCode": "467",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cam Lộ",
+        "districtCode": "468",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Triệu Phong",
+        "districtCode": "469",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hải Lăng",
+        "districtCode": "470",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cồn Cỏ",
+        "districtCode": "471",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "46",
+    "cityLabel": "Tỉnh Thừa Thiên Huế",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Huế",
+        "districtCode": "474",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Phong Điền",
+        "districtCode": "476",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quảng Điền",
+        "districtCode": "477",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Vang",
+        "districtCode": "478",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Hương Thủy",
+        "districtCode": "479",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thị xã Hương Trà",
+        "districtCode": "480",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện A Lưới",
+        "districtCode": "481",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Lộc",
+        "districtCode": "482",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nam Đông",
+        "districtCode": "483",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "48",
+    "cityLabel": "Thành phố Đà Nẵng",
+    "cityLevel": "Thành phố Trung ương",
+    "districtList": [
+      {
+        "districtLabel": "Quận Liên Chiểu",
+        "districtCode": "490",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Thanh Khê",
+        "districtCode": "491",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Hải Châu",
+        "districtCode": "492",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Sơn Trà",
+        "districtCode": "493",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Ngũ Hành Sơn",
+        "districtCode": "494",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Cẩm Lệ",
+        "districtCode": "495",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Huyện Hòa Vang",
+        "districtCode": "497",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hoàng Sa",
+        "districtCode": "498",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "49",
+    "cityLabel": "Tỉnh Quảng Nam",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Tam Kỳ",
+        "districtCode": "502",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Hội An",
+        "districtCode": "503",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Tây Giang",
+        "districtCode": "504",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đông Giang",
+        "districtCode": "505",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đại Lộc",
+        "districtCode": "506",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Điện Bàn",
+        "districtCode": "507",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Duy Xuyên",
+        "districtCode": "508",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Quế Sơn",
+        "districtCode": "509",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nam Giang",
+        "districtCode": "510",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phước Sơn",
+        "districtCode": "511",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hiệp Đức",
+        "districtCode": "512",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thăng Bình",
+        "districtCode": "513",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tiên Phước",
+        "districtCode": "514",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bắc Trà My",
+        "districtCode": "515",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nam Trà My",
+        "districtCode": "516",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Núi Thành",
+        "districtCode": "517",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Ninh",
+        "districtCode": "518",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nông Sơn",
+        "districtCode": "519",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "51",
+    "cityLabel": "Tỉnh Quảng Ngãi",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Quảng Ngãi",
+        "districtCode": "522",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Bình Sơn",
+        "districtCode": "524",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trà Bồng",
+        "districtCode": "525",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sơn Tịnh",
+        "districtCode": "527",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tư Nghĩa",
+        "districtCode": "528",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sơn Hà",
+        "districtCode": "529",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sơn Tây",
+        "districtCode": "530",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Minh Long",
+        "districtCode": "531",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nghĩa Hành",
+        "districtCode": "532",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mộ Đức",
+        "districtCode": "533",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Đức Phổ",
+        "districtCode": "534",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Ba Tơ",
+        "districtCode": "535",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lý Sơn",
+        "districtCode": "536",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "52",
+    "cityLabel": "Tỉnh Bình Định",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Quy Nhơn",
+        "districtCode": "540",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện An Lão",
+        "districtCode": "542",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Hoài Nhơn",
+        "districtCode": "543",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Hoài Ân",
+        "districtCode": "544",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phù Mỹ",
+        "districtCode": "545",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Thạnh",
+        "districtCode": "546",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tây Sơn",
+        "districtCode": "547",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phù Cát",
+        "districtCode": "548",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã An Nhơn",
+        "districtCode": "549",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Tuy Phước",
+        "districtCode": "550",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vân Canh",
+        "districtCode": "551",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "54",
+    "cityLabel": "Tỉnh Phú Yên",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Tuy Hoà",
+        "districtCode": "555",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Sông Cầu",
+        "districtCode": "557",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Đồng Xuân",
+        "districtCode": "558",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tuy An",
+        "districtCode": "559",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sơn Hòa",
+        "districtCode": "560",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sông Hinh",
+        "districtCode": "561",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tây Hoà",
+        "districtCode": "562",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Hoà",
+        "districtCode": "563",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Đông Hòa",
+        "districtCode": "564",
+        "districtLevel": "Thị xã"
+      }
+    ]
+  },
+  {
+    "cityCode": "56",
+    "cityLabel": "Tỉnh Khánh Hòa",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Nha Trang",
+        "districtCode": "568",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Cam Ranh",
+        "districtCode": "569",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Cam Lâm",
+        "districtCode": "570",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vạn Ninh",
+        "districtCode": "571",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Ninh Hòa",
+        "districtCode": "572",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Khánh Vĩnh",
+        "districtCode": "573",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Diên Khánh",
+        "districtCode": "574",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Khánh Sơn",
+        "districtCode": "575",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trường Sa",
+        "districtCode": "576",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "58",
+    "cityLabel": "Tỉnh Ninh Thuận",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Phan Rang-Tháp Chàm",
+        "districtCode": "582",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Bác Ái",
+        "districtCode": "584",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ninh Sơn",
+        "districtCode": "585",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ninh Hải",
+        "districtCode": "586",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ninh Phước",
+        "districtCode": "587",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thuận Bắc",
+        "districtCode": "588",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thuận Nam",
+        "districtCode": "589",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "60",
+    "cityLabel": "Tỉnh Bình Thuận",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Phan Thiết",
+        "districtCode": "593",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã La Gi",
+        "districtCode": "594",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Tuy Phong",
+        "districtCode": "595",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bắc Bình",
+        "districtCode": "596",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hàm Thuận Bắc",
+        "districtCode": "597",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hàm Thuận Nam",
+        "districtCode": "598",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tánh Linh",
+        "districtCode": "599",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đức Linh",
+        "districtCode": "600",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hàm Tân",
+        "districtCode": "601",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Quí",
+        "districtCode": "602",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "62",
+    "cityLabel": "Tỉnh Kon Tum",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Kon Tum",
+        "districtCode": "608",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Đắk Glei",
+        "districtCode": "610",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ngọc Hồi",
+        "districtCode": "611",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đắk Tô",
+        "districtCode": "612",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kon Plông",
+        "districtCode": "613",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kon Rẫy",
+        "districtCode": "614",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đắk Hà",
+        "districtCode": "615",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Sa Thầy",
+        "districtCode": "616",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tu Mơ Rông",
+        "districtCode": "617",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ia H' Drai",
+        "districtCode": "618",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "64",
+    "cityLabel": "Tỉnh Gia Lai",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Pleiku",
+        "districtCode": "622",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã An Khê",
+        "districtCode": "623",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thị xã Ayun Pa",
+        "districtCode": "624",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện KBang",
+        "districtCode": "625",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đăk Đoa",
+        "districtCode": "626",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chư Păh",
+        "districtCode": "627",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ia Grai",
+        "districtCode": "628",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mang Yang",
+        "districtCode": "629",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kông Chro",
+        "districtCode": "630",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đức Cơ",
+        "districtCode": "631",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chư Prông",
+        "districtCode": "632",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chư Sê",
+        "districtCode": "633",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đăk Pơ",
+        "districtCode": "634",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ia Pa",
+        "districtCode": "635",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Krông Pa",
+        "districtCode": "637",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Thiện",
+        "districtCode": "638",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chư Pưh",
+        "districtCode": "639",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "66",
+    "cityLabel": "Tỉnh Đắk Lắk",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Buôn Ma Thuột",
+        "districtCode": "643",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị Xã Buôn Hồ",
+        "districtCode": "644",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Ea H'leo",
+        "districtCode": "645",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ea Súp",
+        "districtCode": "646",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Buôn Đôn",
+        "districtCode": "647",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cư M'gar",
+        "districtCode": "648",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Krông Búk",
+        "districtCode": "649",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Krông Năng",
+        "districtCode": "650",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ea Kar",
+        "districtCode": "651",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện M'Đrắk",
+        "districtCode": "652",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Krông Bông",
+        "districtCode": "653",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Krông Pắc",
+        "districtCode": "654",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Krông A Na",
+        "districtCode": "655",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lắk",
+        "districtCode": "656",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cư Kuin",
+        "districtCode": "657",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "67",
+    "cityLabel": "Tỉnh Đắk Nông",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Gia Nghĩa",
+        "districtCode": "660",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Đăk Glong",
+        "districtCode": "661",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cư Jút",
+        "districtCode": "662",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đắk Mil",
+        "districtCode": "663",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Krông Nô",
+        "districtCode": "664",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đắk Song",
+        "districtCode": "665",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đắk R'Lấp",
+        "districtCode": "666",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tuy Đức",
+        "districtCode": "667",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "68",
+    "cityLabel": "Tỉnh Lâm Đồng",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Đà Lạt",
+        "districtCode": "672",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Bảo Lộc",
+        "districtCode": "673",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Đam Rông",
+        "districtCode": "674",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lạc Dương",
+        "districtCode": "675",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lâm Hà",
+        "districtCode": "676",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đơn Dương",
+        "districtCode": "677",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đức Trọng",
+        "districtCode": "678",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Di Linh",
+        "districtCode": "679",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bảo Lâm",
+        "districtCode": "680",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đạ Huoai",
+        "districtCode": "681",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đạ Tẻh",
+        "districtCode": "682",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cát Tiên",
+        "districtCode": "683",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "70",
+    "cityLabel": "Tỉnh Bình Phước",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thị xã Phước Long",
+        "districtCode": "688",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thành phố Đồng Xoài",
+        "districtCode": "689",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Bình Long",
+        "districtCode": "690",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Bù Gia Mập",
+        "districtCode": "691",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lộc Ninh",
+        "districtCode": "692",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bù Đốp",
+        "districtCode": "693",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hớn Quản",
+        "districtCode": "694",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đồng Phú",
+        "districtCode": "695",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bù Đăng",
+        "districtCode": "696",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Chơn Thành",
+        "districtCode": "697",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Phú Riềng",
+        "districtCode": "698",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "72",
+    "cityLabel": "Tỉnh Tây Ninh",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Tây Ninh",
+        "districtCode": "703",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Tân Biên",
+        "districtCode": "705",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Châu",
+        "districtCode": "706",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Dương Minh Châu",
+        "districtCode": "707",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "708",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Hòa Thành",
+        "districtCode": "709",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Gò Dầu",
+        "districtCode": "710",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bến Cầu",
+        "districtCode": "711",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Trảng Bàng",
+        "districtCode": "712",
+        "districtLevel": "Thị xã"
+      }
+    ]
+  },
+  {
+    "cityCode": "74",
+    "cityLabel": "Tỉnh Bình Dương",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Thủ Dầu Một",
+        "districtCode": "718",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Bàu Bàng",
+        "districtCode": "719",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Dầu Tiếng",
+        "districtCode": "720",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Bến Cát",
+        "districtCode": "721",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Phú Giáo",
+        "districtCode": "722",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Tân Uyên",
+        "districtCode": "723",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thành phố Dĩ An",
+        "districtCode": "724",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Thuận An",
+        "districtCode": "725",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Bắc Tân Uyên",
+        "districtCode": "726",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "75",
+    "cityLabel": "Tỉnh Đồng Nai",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Biên Hòa",
+        "districtCode": "731",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Long Khánh",
+        "districtCode": "732",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Tân Phú",
+        "districtCode": "734",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Cửu",
+        "districtCode": "735",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Định Quán",
+        "districtCode": "736",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trảng Bom",
+        "districtCode": "737",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thống Nhất",
+        "districtCode": "738",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cẩm Mỹ",
+        "districtCode": "739",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Long Thành",
+        "districtCode": "740",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Xuân Lộc",
+        "districtCode": "741",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nhơn Trạch",
+        "districtCode": "742",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "77",
+    "cityLabel": "Tỉnh Bà Rịa - Vũng Tàu",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Vũng Tàu",
+        "districtCode": "747",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Bà Rịa",
+        "districtCode": "748",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Châu Đức",
+        "districtCode": "750",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Xuyên Mộc",
+        "districtCode": "751",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Long Điền",
+        "districtCode": "752",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đất Đỏ",
+        "districtCode": "753",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Phú Mỹ",
+        "districtCode": "754",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Côn Đảo",
+        "districtCode": "755",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "79",
+    "cityLabel": "Thành phố Hồ Chí Minh",
+    "cityLevel": "Thành phố Trung ương",
+    "districtList": [
+      {
+        "districtLabel": "Quận 1",
+        "districtCode": "760",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 12",
+        "districtCode": "761",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Gò Vấp",
+        "districtCode": "764",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Bình Thạnh",
+        "districtCode": "765",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Tân Bình",
+        "districtCode": "766",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Tân Phú",
+        "districtCode": "767",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Phú Nhuận",
+        "districtCode": "768",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Thành phố Thủ Đức",
+        "districtCode": "769",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Quận 3",
+        "districtCode": "770",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 10",
+        "districtCode": "771",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 11",
+        "districtCode": "772",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 4",
+        "districtCode": "773",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 5",
+        "districtCode": "774",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 6",
+        "districtCode": "775",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 8",
+        "districtCode": "776",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Bình Tân",
+        "districtCode": "777",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận 7",
+        "districtCode": "778",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Huyện Củ Chi",
+        "districtCode": "783",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hóc Môn",
+        "districtCode": "784",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bình Chánh",
+        "districtCode": "785",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Nhà Bè",
+        "districtCode": "786",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cần Giờ",
+        "districtCode": "787",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "80",
+    "cityLabel": "Tỉnh Long An",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Tân An",
+        "districtCode": "794",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Kiến Tường",
+        "districtCode": "795",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Tân Hưng",
+        "districtCode": "796",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Hưng",
+        "districtCode": "797",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mộc Hóa",
+        "districtCode": "798",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Thạnh",
+        "districtCode": "799",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thạnh Hóa",
+        "districtCode": "800",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đức Huệ",
+        "districtCode": "801",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đức Hòa",
+        "districtCode": "802",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bến Lức",
+        "districtCode": "803",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thủ Thừa",
+        "districtCode": "804",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Trụ",
+        "districtCode": "805",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cần Đước",
+        "districtCode": "806",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cần Giuộc",
+        "districtCode": "807",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "808",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "82",
+    "cityLabel": "Tỉnh Tiền Giang",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Mỹ Tho",
+        "districtCode": "815",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thị xã Gò Công",
+        "districtCode": "816",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Thị xã Cai Lậy",
+        "districtCode": "817",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Tân Phước",
+        "districtCode": "818",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cái Bè",
+        "districtCode": "819",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cai Lậy",
+        "districtCode": "820",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "821",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chợ Gạo",
+        "districtCode": "822",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gò Công Tây",
+        "districtCode": "823",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gò Công Đông",
+        "districtCode": "824",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Phú Đông",
+        "districtCode": "825",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "83",
+    "cityLabel": "Tỉnh Bến Tre",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Bến Tre",
+        "districtCode": "829",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "831",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chợ Lách",
+        "districtCode": "832",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mỏ Cày Nam",
+        "districtCode": "833",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Giồng Trôm",
+        "districtCode": "834",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bình Đại",
+        "districtCode": "835",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ba Tri",
+        "districtCode": "836",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thạnh Phú",
+        "districtCode": "837",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mỏ Cày Bắc",
+        "districtCode": "838",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "84",
+    "cityLabel": "Tỉnh Trà Vinh",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Trà Vinh",
+        "districtCode": "842",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Càng Long",
+        "districtCode": "844",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cầu Kè",
+        "districtCode": "845",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tiểu Cần",
+        "districtCode": "846",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "847",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cầu Ngang",
+        "districtCode": "848",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trà Cú",
+        "districtCode": "849",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Duyên Hải",
+        "districtCode": "851",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Duyên Hải",
+        "districtCode": "850",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "86",
+    "cityLabel": "Tỉnh Vĩnh Long",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Vĩnh Long",
+        "districtCode": "855",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Long Hồ",
+        "districtCode": "857",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mang Thít",
+        "districtCode": "858",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện  Vũng Liêm",
+        "districtCode": "859",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tam Bình",
+        "districtCode": "860",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Bình Minh",
+        "districtCode": "861",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Trà Ôn",
+        "districtCode": "862",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Bình Tân",
+        "districtCode": "863",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "87",
+    "cityLabel": "Tỉnh Đồng Tháp",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Cao Lãnh",
+        "districtCode": "866",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Sa Đéc",
+        "districtCode": "867",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Hồng Ngự",
+        "districtCode": "868",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Tân Hồng",
+        "districtCode": "869",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hồng Ngự",
+        "districtCode": "870",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tam Nông",
+        "districtCode": "871",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tháp Mười",
+        "districtCode": "872",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cao Lãnh",
+        "districtCode": "873",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thanh Bình",
+        "districtCode": "874",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lấp Vò",
+        "districtCode": "875",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Lai Vung",
+        "districtCode": "876",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "877",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "89",
+    "cityLabel": "Tỉnh An Giang",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Long Xuyên",
+        "districtCode": "883",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Châu Đốc",
+        "districtCode": "884",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện An Phú",
+        "districtCode": "886",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Tân Châu",
+        "districtCode": "887",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Phú Tân",
+        "districtCode": "888",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Phú",
+        "districtCode": "889",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tịnh Biên",
+        "districtCode": "890",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tri Tôn",
+        "districtCode": "891",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "892",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Chợ Mới",
+        "districtCode": "893",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thoại Sơn",
+        "districtCode": "894",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "91",
+    "cityLabel": "Tỉnh Kiên Giang",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Rạch Giá",
+        "districtCode": "899",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Hà Tiên",
+        "districtCode": "900",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Kiên Lương",
+        "districtCode": "902",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hòn Đất",
+        "districtCode": "903",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Tân Hiệp",
+        "districtCode": "904",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "905",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Giồng Riềng",
+        "districtCode": "906",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Gò Quao",
+        "districtCode": "907",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện An Biên",
+        "districtCode": "908",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện An Minh",
+        "districtCode": "909",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Thuận",
+        "districtCode": "910",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thành phố Phú Quốc",
+        "districtCode": "911",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Kiên Hải",
+        "districtCode": "912",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện U Minh Thượng",
+        "districtCode": "913",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Giang Thành",
+        "districtCode": "914",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "92",
+    "cityLabel": "Thành phố Cần Thơ",
+    "cityLevel": "Thành phố Trung ương",
+    "districtList": [
+      {
+        "districtLabel": "Quận Ninh Kiều",
+        "districtCode": "916",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Ô Môn",
+        "districtCode": "917",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Bình Thuỷ",
+        "districtCode": "918",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Cái Răng",
+        "districtCode": "919",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Quận Thốt Nốt",
+        "districtCode": "923",
+        "districtLevel": "Quận"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Thạnh",
+        "districtCode": "924",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cờ Đỏ",
+        "districtCode": "925",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phong Điền",
+        "districtCode": "926",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thới Lai",
+        "districtCode": "927",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "93",
+    "cityLabel": "Tỉnh Hậu Giang",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Vị Thanh",
+        "districtCode": "930",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Thành phố Ngã Bảy",
+        "districtCode": "931",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành A",
+        "districtCode": "932",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "933",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phụng Hiệp",
+        "districtCode": "934",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vị Thuỷ",
+        "districtCode": "935",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Long Mỹ",
+        "districtCode": "937",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Long Mỹ",
+        "districtCode": "936",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "94",
+    "cityLabel": "Tỉnh Sóc Trăng",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Sóc Trăng",
+        "districtCode": "941",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Châu Thành",
+        "districtCode": "942",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Kế Sách",
+        "districtCode": "943",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mỹ Tú",
+        "districtCode": "944",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cù Lao Dung",
+        "districtCode": "945",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Long Phú",
+        "districtCode": "946",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Mỹ Xuyên",
+        "districtCode": "947",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Ngã Năm",
+        "districtCode": "948",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Thạnh Trị",
+        "districtCode": "949",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Vĩnh Châu",
+        "districtCode": "950",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Trần Đề",
+        "districtCode": "951",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "95",
+    "cityLabel": "Tỉnh Bạc Liêu",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Bạc Liêu",
+        "districtCode": "954",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện Hồng Dân",
+        "districtCode": "956",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phước Long",
+        "districtCode": "957",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Vĩnh Lợi",
+        "districtCode": "958",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Thị xã Giá Rai",
+        "districtCode": "959",
+        "districtLevel": "Thị xã"
+      },
+      {
+        "districtLabel": "Huyện Đông Hải",
+        "districtCode": "960",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Hoà Bình",
+        "districtCode": "961",
+        "districtLevel": "Huyện"
+      }
+    ]
+  },
+  {
+    "cityCode": "96",
+    "cityLabel": "Tỉnh Cà Mau",
+    "cityLevel": "Tỉnh",
+    "districtList": [
+      {
+        "districtLabel": "Thành phố Cà Mau",
+        "districtCode": "964",
+        "districtLevel": "Thành phố"
+      },
+      {
+        "districtLabel": "Huyện U Minh",
+        "districtCode": "966",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Thới Bình",
+        "districtCode": "967",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Trần Văn Thời",
+        "districtCode": "968",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Cái Nước",
+        "districtCode": "969",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Đầm Dơi",
+        "districtCode": "970",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Năm Căn",
+        "districtCode": "971",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Phú Tân",
+        "districtCode": "972",
+        "districtLevel": "Huyện"
+      },
+      {
+        "districtLabel": "Huyện Ngọc Hiển",
+        "districtCode": "973",
+        "districtLevel": "Huyện"
+      }
+    ]
+  }
+]

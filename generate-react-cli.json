@@ -1,0 +1,60 @@
+{
+  "usesTypeScript": true,
+  "usesCssModule": false,
+  "cssPreprocessor": "css",
+  "testLibrary": "Testing Library",
+  "component": {
+    "default": {
+      "customTemplates": {
+        "index": "src/templates/component/index.tsx",
+        "style": "src/templates/component/TemplateName.style.tsx",
+        "component": "src/templates/component/TemplateName.view.tsx",
+        "type": "src/templates/component/TemplateName.type.tsx",
+        "logic": "src/templates/component/TemplateName.logic.tsx"
+      },
+      "path": "src/components",
+      "withIndex": true,
+      "withStyle": true,
+      "withType": true,
+      "withLogic": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    },
+    "withoutMapProps": {
+      "customTemplates": {
+        "index": "src/templates/componentWithoutMapProps/index.tsx",
+        "style": "src/templates/componentWithoutMapProps/TemplateName.style.tsx",
+        "component": "src/templates/componentWithoutMapProps/TemplateName.view.tsx",
+        "type": "src/templates/componentWithoutMapProps/TemplateName.type.tsx",
+        "logic": "src/templates/componentWithoutMapProps/TemplateName.logic.tsx"
+      },
+      "path": "src/components",
+      "withIndex": true,
+      "withStyle": true,
+      "withType": true,
+      "withLogic": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    },
+    "redux": {
+      "customTemplates": {
+        "index": "src/templates/reduxToolkit/index.ts",
+        "helper": "src/templates/reduxToolkit/TemplateName.helper.ts",
+        "component": "src/templates/reduxToolkit/TemplateName.redux.ts",
+        "type": "src/templates/reduxToolkit/TemplateName.type.ts",
+        "saga": "src/templates/reduxToolkit/TemplateName.saga.ts"
+      },
+      "path": "src/reduxs",
+      "withIndex": true,
+      "withHelper": true,
+      "withType": true,
+      "withSaga": true,
+      "withTest": false,
+      "withStory": false,
+      "withLazy": false
+    }
+  },
+  "usesStyledComponents": false
+}

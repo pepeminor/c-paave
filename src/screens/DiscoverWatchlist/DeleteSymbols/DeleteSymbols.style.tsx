@@ -1,0 +1,105 @@
+import globalStyles, { lightColors as Colors } from 'styles';
+import { getStylesHook } from 'hooks/useStyles';
+
+export default getStylesHook({
+  container: {
+    flex: 1,
+    backgroundColor: Colors.WHITE,
+  },
+  paddingFix: {
+    ...globalStyles.container,
+    backgroundColor: Colors.WHITE,
+    paddingBottom: 8,
+  },
+  symbolItemContainer: {
+    ...globalStyles.flexDirectionRow,
+    ...globalStyles.alignCenter,
+    height: 48,
+    paddingLeft: 16,
+    paddingRight: 18,
+    borderBottomColor: Colors.BORDER,
+    borderBottomWidth: 1,
+  },
+  logoContainer: {
+    ...globalStyles.overflowHidden,
+    borderRadius: 99,
+  },
+  nameContainer: {
+    ...globalStyles.container,
+    marginRight: 17,
+    marginLeft: 4,
+  },
+  stockCodeText: {
+    fontWeight: '700',
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    color: Colors.LIGHTTextBigTitle,
+    fontSize: 14,
+  },
+  fullNameText: {
+    fontSize: 10,
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    color: Colors.LIGHTTextDisable,
+    marginTop: 3,
+  },
+  headerTitleContainer: {
+    ...globalStyles.alignCenter,
+    marginTop: 8,
+    marginBottom: 4,
+    paddingLeft: 14,
+    paddingRight: 19,
+    height: 38,
+  },
+  wholeContainerStyleIOS: {
+    height: 44,
+    width: 343,
+  },
+  textInputContainerIOS: {
+    paddingHorizontal: 8,
+    borderWidth: 1,
+    borderRadius: 5,
+    borderColor: Colors.LIGHTBackground,
+    backgroundColor: Colors.LIGHTTitleTable,
+    flexDirection: 'row',
+    alignItems: 'center',
+    height: 36,
+  },
+  textInputSearchStyle: {
+    fontSize: 14,
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+    color: Colors.LIGHTTextContent,
+    width: 250,
+    marginLeft: 10,
+    height: 44,
+  },
+  iconStyle: {
+    marginLeft: 290,
+    marginTop: -34,
+  },
+  heartContainer: {
+    paddingVertical: 15,
+    paddingHorizontal: 30,
+    marginHorizontal: -20,
+  },
+  btnEnable: {
+    width: '92%',
+    marginHorizontal: 16,
+    backgroundColor: Colors.BlueNewColor,
+    paddingVertical: 16,
+    paddingHorizontal: '4%',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderRadius: 10,
+    marginBottom: 16,
+    marginTop: 8,
+  },
+  cancelText: {
+    fontSize: 14,
+    color: Colors.WHITE,
+    fontWeight: 'bold',
+    fontFamily: 'Roboto',
+    fontStyle: 'normal',
+  },
+});
